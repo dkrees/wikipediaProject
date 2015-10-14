@@ -1,0 +1,1199 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"profi",
+				"profileName"
+			],
+			[
+				"prof",
+				"profileName"
+			],
+			[
+				"en",
+				"entities"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"app",
+				"appConfig"
+			],
+			[
+				"ap",
+				"appConfig"
+			],
+			[
+				"l",
+				"list"
+			],
+			[
+				"search",
+				"searchTerm"
+			],
+			[
+				"ent",
+				"entitySearch"
+			],
+			[
+				"sear",
+				"searchTerm"
+			],
+			[
+				"org",
+				"organisationQ2"
+			],
+			[
+				"sent",
+				"sentTo"
+			],
+			[
+				"new",
+				"newDocs"
+			],
+			[
+				"lcoal",
+				"localData"
+			],
+			[
+				"local",
+				"LocalStorage"
+			],
+			[
+				"form",
+				"formName"
+			],
+			[
+				"data",
+				"dataProvider"
+			],
+			[
+				"Loc",
+				"LocalStorage"
+			],
+			[
+				"remot",
+				"remoteDBStorage"
+			],
+			[
+				"sup",
+				"supportedControls"
+			],
+			[
+				"contol",
+				"controlset"
+			],
+			[
+				"control",
+				"controlset"
+			],
+			[
+				"doc",
+				"documentsCtrl"
+			],
+			[
+				"current",
+				"currentState"
+			],
+			[
+				"navi",
+				"navigateBack"
+			],
+			[
+				"abstract",
+				"abstractState"
+			],
+			[
+				"nav",
+				"navState"
+			],
+			[
+				"ng-cl",
+				"ng-class	AngularJS"
+			],
+			[
+				"ng",
+				"ng-class	AngularJS"
+			],
+			[
+				"ab",
+				"abstractState"
+			],
+			[
+				"na",
+				"navModules"
+			],
+			[
+				"get",
+				"getItem"
+			],
+			[
+				"core",
+				"coreModules"
+			],
+			[
+				"la",
+				"layouts"
+			],
+			[
+				"team",
+				"team2Score"
+			],
+			[
+				"sav",
+				"saveStats"
+			],
+			[
+				"time",
+				"timeStamp"
+			],
+			[
+				"$state",
+				"$stateParams"
+			],
+			[
+				"tea",
+				"teamInPossession"
+			],
+			[
+				"player",
+				"playerInPossession"
+			],
+			[
+				"pl",
+				"playerInPossession"
+			],
+			[
+				"tema",
+				"teamInPossession"
+			],
+			[
+				"currnet",
+				"currentState"
+			],
+			[
+				"sy",
+				"syncObject"
+			],
+			[
+				"log",
+				"logId"
+			],
+			[
+				"match",
+				"matchlog"
+			],
+			[
+				"lo",
+				"localstorage"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"can",
+				"canExplore"
+			],
+			[
+				"ca",
+				"canExplore"
+			],
+			[
+				"sector",
+				"sectorsExplored"
+			],
+			[
+				"Sector",
+				"Sectors"
+			],
+			[
+				"number",
+				"numberOfExplores"
+			],
+			[
+				"part",
+				"partName"
+			],
+			[
+				"ship",
+				"shipName"
+			],
+			[
+				"mail",
+				"mailthumb"
+			],
+			[
+				"ng-c",
+				"ng-class	AngularJS"
+			],
+			[
+				"ng-",
+				"ng-click	AngularJS"
+			],
+			[
+				"rer",
+				"return"
+			],
+			[
+				"ng-bind",
+				"ng-bind-html	AngularJS"
+			],
+			[
+				"te",
+				"testForm"
+			],
+			[
+				"chec",
+				"checked"
+			],
+			[
+				"request",
+				"requestA"
+			],
+			[
+				"A",
+				"A"
+			],
+			[
+				"next",
+				"nextButton"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"dyna",
+				"dynamicFormText"
+			],
+			[
+				"set",
+				"setContent"
+			],
+			[
+				"this",
+				"thisElement"
+			],
+			[
+				"an",
+				"angular	AngularJS"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"o",
+				"output"
+			],
+			[
+				"compa",
+				"compareB"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"colo",
+				"colour"
+			],
+			[
+				"req",
+				"requestA"
+			],
+			[
+				"question",
+				"questions"
+			],
+			[
+				"string",
+				"stringTests"
+			],
+			[
+				"argB",
+				"argB"
+			],
+			[
+				"ag",
+				"arguments"
+			],
+			[
+				"opera",
+				"operatorService"
+			],
+			[
+				"argumet",
+				"argumentB"
+			],
+			[
+				"arg",
+				"argumentB"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"progress",
+				"progressBar"
+			],
+			[
+				"fil",
+				"fieldsLength"
+			],
+			[
+				"W-",
+				"W-8BEN-E"
+			],
+			[
+				"startin",
+				"startingQuestion"
+			],
+			[
+				"W-8",
+				"W-8BEN"
+			],
+			[
+				"Form",
+				"Form-8288"
+			],
+			[
+				"W-8BEN",
+				"W-8BEN-E"
+			],
+			[
+				"go",
+				"goNext"
+			],
+			[
+				"m",
+				"myObj"
+			],
+			[
+				"split",
+				"splitRequirement"
+			],
+			[
+				"requ",
+				"requirement"
+			],
+			[
+				"W",
+				"W-8BEN"
+			],
+			[
+				"oper",
+				"operator"
+			],
+			[
+				"re",
+				"requirementIsMet"
+			],
+			[
+				"op",
+				"operator"
+			],
+			[
+				"logic",
+				"logic2"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"tets",
+				"testB"
+			],
+			[
+				"test",
+				"testA"
+			],
+			[
+				"retru",
+				"returnValue"
+			],
+			[
+				"value",
+				"returnValue"
+			],
+			[
+				"inp",
+				"inputType"
+			],
+			[
+				"in",
+				"individual-2"
+			],
+			[
+				"w-",
+				"w-8eci"
+			],
+			[
+				"ind",
+				"individual-2"
+			],
+			[
+				"w9",
+				"W9"
+			],
+			[
+				"model",
+				"modelValue"
+			],
+			[
+				"home",
+				"homeCtrl"
+			],
+			[
+				"Co",
+				"controller	AngularJS"
+			],
+			[
+				"cosn",
+				"console"
+			],
+			[
+				"$local",
+				"$localstorage"
+			],
+			[
+				"load",
+				"loaderService"
+			],
+			[
+				"wordl",
+				"worldRows"
+			],
+			[
+				"wor",
+				"worldRows"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"$roo",
+				"$rootScope	AngularJS"
+			],
+			[
+				"size",
+				"sizeControl"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"thing",
+				"inThing"
+			],
+			[
+				"option",
+				"optionSelected"
+			],
+			[
+				"ng-switch",
+				"ng-switch-when	AngularJS"
+			],
+			[
+				"$oo",
+				"$rootScope	AngularJS"
+			],
+			[
+				"naviga",
+				"navigateBack"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 270.0,
+		"last_filter": "pretty",
+		"selected_items":
+		[
+			[
+				"pretty",
+				"Pretty JSON: Validate"
+			],
+			[
+				"pre",
+				"Pretty JSON: Validate"
+			],
+			[
+				"Pa",
+				"Package Control: Install Package"
+			],
+			[
+				"gl",
+				"Package Control: List Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"media",
+				"Snippet: bs3-media-object"
+			],
+			[
+				"form",
+				"Snippet: bs3-form"
+			],
+			[
+				"table",
+				"Snippet: bs3-table-bordered"
+			],
+			[
+				"cont",
+				"Snippet: bs3-container"
+			],
+			[
+				"container",
+				"Snippet: bs3-container"
+			],
+			[
+				"col-12",
+				"Snippet: bs3-col-12"
+			],
+			[
+				"ro",
+				"Snippet: bs3-row"
+			],
+			[
+				"list",
+				"Snippet: bs3-list-group-linked"
+			],
+			[
+				"glyp",
+				"Snippet: bs3-icon-glyphicon"
+			],
+			[
+				"lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"thum",
+				"Snippet: bs3-thumbnail"
+			],
+			[
+				"nav",
+				"Snippet: bs3-navbar-responsive"
+			],
+			[
+				"select",
+				"Snippet: bs3-input-select"
+			],
+			[
+				"col",
+				"Snippet: bs3-col-8"
+			],
+			[
+				"row",
+				"Snippet: bs3-row"
+			],
+			[
+				"nave",
+				"Snippet: ionic-nav-buttons-left"
+			],
+			[
+				"head",
+				"Snippet: bs3-page header"
+			],
+			[
+				"tab",
+				"Snippet: bs3-table-striped"
+			],
+			[
+				"butt",
+				"Snippet: bs3-button-primary"
+			],
+			[
+				"tabe",
+				"Snippet: bs3-table"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-form"
+			],
+			[
+				"nav-",
+				"Snippet: bs3-navbar-links"
+			],
+			[
+				"butto",
+				"Snippet: bs3-button-primary"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"but",
+				"Snippet: bs3-button-primary"
+			],
+			[
+				"gly",
+				"Snippet: bs3-icon-glyphicon"
+			],
+			[
+				"button",
+				"Snippet: bs3-button-primary"
+			],
+			[
+				"input",
+				"Snippet: bs3-input-text"
+			],
+			[
+				"modal",
+				"Snippet: bs3-modal"
+			],
+			[
+				"check",
+				"Snippet: bs3-input-checkbox"
+			],
+			[
+				"for",
+				"Snippet: bs3-form"
+			],
+			[
+				"sub",
+				"Snippet: bs3-input-submit"
+			],
+			[
+				"radio",
+				"Snippet: bs3-input-radio"
+			],
+			[
+				"btn",
+				"Snippet: bs3-button-primary"
+			],
+			[
+				"clear",
+				"Snippet: bs3-clearfix"
+			],
+			[
+				"lor",
+				"Convert Case: Lower Case"
+			],
+			[
+				"Lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"snippet: lore",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Add Repository"
+			],
+			[
+				"l",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"",
+				"File: Save All"
+			]
+		],
+		"width": 538.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/documents/subheader.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_settings.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_layout.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_navigation.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_typography.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_helpers.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/header/header.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/header/header.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/entities/subheader.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/services/dataService.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/app.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/login/login.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/index.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/localData/entities.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/entities/list.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/entities/entities.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/localData/entities/6f6b2136-b6ac-8470-1ab9-9173a36c2853/docs.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/entities/view.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/login.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/documents/documents.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_lists.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/localData/form/0373ec34-eb00-4067-940e-480ba5a68389.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/localData/entities/6f6b2136-b6ac-8470-1ab9-9173a36c2853.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/localData/entities/bec7023a-7930-0af4-7a8f-d93a5885ec37.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/styles.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/login/loginApp.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/directives/ui/ui.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/layout/layout-login.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/filters/filters.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/directives/ui.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/services/httpInterceptor.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/footer/footer.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/documents/viewdoc.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/documents/new.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/documents/form.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/calicoDynamics/calicoDynamics.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/config.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/documents/documents.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/localData/global/forms/newEntityForm.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_linearIcons.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_forms.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/entities/new.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/localData/global/forms/W8BENE.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/localData/global/dataset/coreDataSet.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/calicoTable/calicoTable.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/footer/footer.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/sass/_grid.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/calicoGrid/calicoGrid.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/calicoGrid/template-simpleGrid.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/calicoDynamics/template-dynamicForm.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/calicoDropdown/calicoDropdown.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/services/localStorageService.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/services/W8BENE.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/navigation/navigation.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/dashboard/dashboard.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/notifications/notifications.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/admin/admin.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/formData/formServices.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/navigation/navigation.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/layout/layout-main.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/admin/admin.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/reminders/reminders.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/notifications/notifications.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/reminders/reminders.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/bower_components/font-awesome/scss/_variables.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/entities/entities.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/layout/layout-full-width.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/layouts/layout-main.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/layouts/header.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/layouts/layout-full-width.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/services/navigationService.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/dashboard/dashboard.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/common/modules/login/login.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/login/login.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/login/login.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/app/home/home.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/modules/dashboard/dashboard.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/modules/home/home.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/layouts/footer.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/layouts/layout-main.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/js/dataService.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/js/app.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/layouts/layout-full-width.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/modules/dashboard/dashboard.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/modules/home/home.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/modules/home.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/layouts/header.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/package.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp4/app/gruntfile.js",
+		"/Users/David/CloudStation/MatchStatIonic/ms/www/index.html",
+		"/Users/David/CloudStation/MatchStatIonic/ms/scss/ionic.app.css",
+		"/Users/David/CloudStation/MatchStatIonic/ms/scss/ionic.app.scss",
+		"/Users/David/CloudStation/matchstat/matchstatDev/MatchStatApp/www/views/modals/newFixture-modal.html",
+		"/Users/David/Documents/MatchStat/MatchStatIonic/ms/www/scss/_buttons.scss",
+		"/Users/David/Documents/MatchStat/MatchStatIonic/ms/www/index.html",
+		"/Users/David/Documents/MatchStat/MatchStatIonic/ms/www/scss/_styles.scss",
+		"/Users/David/Documents/MatchStat/MatchStatIonic/ms/www/views/home.html",
+		"/Users/David/Documents/MatchStat/MatchStatIonic/ms/scss/ionic.app.scss",
+		"/Users/David/Documents/MatchStat/MatchStatIonic/ms/bower.json",
+		"/Volumes/Mac HD 1/Users/David/index.html",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/views/home.html",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/sass/_variables.scss",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/sass/styles.scss",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/views/forms.html",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/sass/_layout.scss",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/sass/_images.scss",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/views/crm.html",
+		"/Users/David/Documents/Hydrofool/spriteanimations/index.html",
+		"/Users/David/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/sass/_settings.scss",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/views/matchstat.html",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/sass/_typography.scss",
+		"/Users/David/Documents/CV and Portfolio/PortfolioApp1508/sass/_sideMenu.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/layouts/header.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/sass/_typography.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/sass/_layout.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/sass/_forms.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/index.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/scripts/app.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/views/ui/uiControllers.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/views/ui/ui.html",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/scripts/directives.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/bower_components/textAngular/dist/textAngular.js",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/bower_components/textAngular/dist/textAngular.min.js",
+		"/Users/David/Desktop/untitled.json",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/sass/_navigation.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/sass/_buttons.scss",
+		"/Users/David/OneDrive/Documents/Calico/CalicoApp2/sass/_settings.scss"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"index",
+			"docs",
+			"userDocs",
+			"email",
+			"organisation",
+			"organisationPermanentAddress",
+			"individual",
+			"email",
+			"dl",
+			"factory",
+			"data",
+			"localPath",
+			"data",
+			"list",
+			"Path",
+			"form",
+			"userForms",
+			"formId",
+			"'localData/client/techcrowd/forms'",
+			"localData/client/techcrowd/forms",
+			"getList",
+			"getNewForm",
+			"scope.change",
+			"change",
+			"participating",
+			"the IRS is dated",
+			"the IRS is date",
+			",",
+			":{",
+			"}",
+			"\",",
+			"{",
+			"'",
+			"header",
+			"Header",
+			"header",
+			"Header",
+			"header",
+			"answerToDataset",
+			" \n",
+			" ",
+			"Reminders",
+			"reminders",
+			"Documents",
+			"documents",
+			"Documents",
+			"documents",
+			"entities",
+			"Entities",
+			"entities",
+			"Entities",
+			"entities",
+			"dashboard",
+			"login",
+			"localStorage.",
+			"localStorage",
+			"dashboard",
+			"home",
+			"root",
+			"  ",
+			"positive",
+			"<label>",
+			"received",
+			"passed",
+			"received",
+			"error",
+			"tip",
+			"team: 1",
+			"pos:",
+			"error: 0",
+			"tip: 0",
+			"received",
+			"$save",
+			"thisFixture",
+			"fbutil",
+			"getRegister",
+			"fbutil",
+			"matchStat",
+			"received",
+			"team1",
+			"playerTap",
+			"tap",
+			"tap: 0",
+			"{}",
+			"{ sectorNumber:",
+			"	3",
+			"{ sectorNumber:",
+			"	",
+			"	2",
+			"	1",
+			"1",
+			"explore: ,",
+			"round",
+			"partName",
+			"randomPart",
+			"shipName",
+			"randomShip",
+			"shipUpgrade",
+			"class=\"subheader\"",
+			"h3",
+			" class=\"nav-link\" ",
+			"</a>",
+			":",
+			"id:",
+			"'}",
+			"id: 1,",
+			"{'",
+			"toolbarWC",
+			"btn-group",
+			"button",
+			"btn-group",
+			"$index",
+			"updateFields",
+			"getValue",
+			"setFieldType",
+			"setFieldType ();",
+			"setFieldType",
+			"scope.part.text",
+			"Element",
+			"element",
+			"Element",
+			"element",
+			"Element",
+			"element",
+			"Element",
+			"element",
+			"Element",
+			"element"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-JacOvIdcu67bgMmPceT"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Cache/SASS/SASS (OSX).sublime-build",
+	"project": "wikipedia.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"login",
+				"common/modules/login/login.html"
+			],
+			[
+				"ro",
+				"www/js/routes.js"
+			],
+			[
+				"na",
+				"less/navbar.less"
+			],
+			[
+				"button",
+				"less/buttons.less"
+			],
+			[
+				"varia",
+				"less/variables.less"
+			],
+			[
+				"theme",
+				"less/theme.less"
+			],
+			[
+				"",
+				"matchlog.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 364.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

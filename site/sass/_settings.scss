@@ -1,0 +1,104 @@
+﻿// SETTINGS AND VARIABLES
+
+// COLOURS
+// ==========================
+$black: 			#000 !default;
+$grey-dark:         lighten($black, 20%);
+$grey:              lighten($black, 33%);
+$grey-light:        lighten($black, 75%);
+$grey-lighter:      #E6E6E6;
+$white: 			#FFF !default;
+$muted:             lighten($grey-dark, 30%);
+
+$body-bg:           $white;
+
+// THEMES
+// ==========================
+$green:			#BEDB39;
+$darkGreen:		#1F8A70;
+$lightBlue:		#4A90E2;
+$darkBlue:		#004358;
+$blue: 			rgb(0, 103, 176);
+$yellow:		#FFE11A;
+$darkOrange:	#FD7400;
+$red:			#FD430E;
+
+$positive:		#17cb4c;
+$negative:		#cb2c2b;
+$info:			$lightBlue;
+$error:         #cb2c2b;
+$warning:       #FD7400;
+
+
+
+$themes: (
+	"default": (color: $white, alt: $grey-dark),
+	"green": (color: $green, alt: $black),
+	"amber": (color: $darkOrange, alt: $white),
+	"darkGreen": (color: $darkGreen, alt: $white),
+	"lightBlue": (color: $lightBlue, alt: $black),
+	"darkBlue": (color: $darkBlue, alt: $white),
+	"blue": (color: $blue, alt: $white),
+	"yellow": (color: $yellow, alt: $black),
+	"darkOrange": (color: $darkOrange, alt: $white),
+	"red": (color: $red, alt: $white),
+
+	"positive": (color: $positive, alt: $white),
+	"negative": (color: $negative, alt: $white),
+	"info": (color: $info, alt: $white),
+    "error": (color: $error, alt: $white),
+    "warning": (color: $warning, alt: $white),
+    "undocumented": (color: $warning, alt: $white),
+    "transparent": (color: transparent, alt: $grey)
+);
+
+$primary-colour: $lightBlue;
+
+// GRID
+// ==========================
+$screen-xs: 			480px;
+$screen-s: 				768px;
+$screen-m: 				992px;
+$screen-l: 				1200px;
+
+// LAYOUT
+// ==========================
+$padding:				12px !default;
+$navWidthCollapsed: 	$padding * 4 !default;
+$navWidthExpanded: 		175px !default;
+$navBackgroundColour:	#333 !default;
+$menuButtonColour:		$green !default;
+$content-padding: 		$padding/2 !default;
+
+
+// TYPOGRAPHY
+// ==========================
+$font-sans-serif: 	        'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !default;
+$font-colour: 		        $grey-dark !default;
+$font-size-base:            15px !default;
+$line-height-base:          1.5 !default;
+$line-height-computed:      floor(($font-size-base * $line-height-base)) !default;
+
+// ICONS
+// ==========================
+$iconSize: $padding * 4 !default;
+
+// TABLES
+// ==========================
+$table-bg:                  transparent !default;
+$table-cell-padding:        8px !default;
+$table-border-colour:       $grey-light !default;
+$table-bg-accent:           #EDEDED !default;
+$table-bg-hover:            tint($primary-colour, 20%) !default;
+
+
+
+// BUTTONS
+// ==========================
+$buttonFace: $grey-light !default;
+$buttonText: inherit !default;
+$buttonBorder: darken($buttonFace, 80%);
+$buttonActive: darken($buttonFace, 20%);
+
+
+

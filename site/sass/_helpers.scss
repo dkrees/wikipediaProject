@@ -1,0 +1,73 @@
+// HELPERS
+
+.pointer {
+	&:hover {
+		cursor: pointer;
+	}
+}
+
+.clearfix {
+	@include clearfix;
+}
+
+.float-right {
+	float: right;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.vertical-align {
+    vertical-align:middle;
+}
+
+margin-top {
+    margin-top: $padding;
+}
+
+margin-bottom {
+    margin-bottom: $padding;
+}
+
+
+// FILLED CIRCLE
+// for icon backgrounds
+// ==========================
+
+.filled-circle {
+	position: relative;
+	// bottom: -$iconSize/10;
+	display: inline-block;
+	//margin-right:10px;
+	height: $iconSize;
+	width: $iconSize;
+	border-radius: $iconSize/2;
+	color: #FFF;
+
+	span {
+		font-size: $iconSize/2;
+		position: relative;
+		height: 100%;
+		top: $iconSize/5;
+		// right: $iconSize/4;
+		// bottom: -$iconSize/4;
+		left: $iconSize/4;
+	}
+
+	&.small {
+		color: #FFF;
+		height: $iconSize/2;
+		width: $iconSize/2;
+		border-radius: $iconSize/4;
+		span {
+			font-size: $iconSize/3;
+			position: relative;
+			height: 100%;
+			top: $iconSize/12;
+			right: $iconSize/12;
+			bottom: $iconSize/12;
+			left: $iconSize/12;
+		}
+	}
+}

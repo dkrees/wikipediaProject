@@ -1,0 +1,174 @@
+// GRID STYLES
+
+@mixin itemContent($height, $padding: 8px) {
+    height: $height;
+    border: 1px solid $grey-lighter;
+    padding: $padding;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: $white;
+
+    h1, h2, p {
+        display: inline-block;
+        float: left;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 18px;
+        //margin-left: 1em;
+    }
+
+    h2 {
+        font-size: 16px;
+        margin-left: 8px;
+        color: $muted;
+    }
+
+    p {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+
+    > .status {
+        // float: right;
+        position: absolute;
+        top: 8px;
+        right: 8px;
+    }
+
+    @include media($screen-s) {
+        h1, h2, p {
+            display: block;
+            float: none;
+            margin: 0;
+        }
+    }
+}
+
+@include keyframes(dance) {
+    0%, 100% {
+        @include transform(scale(1));
+    }
+
+    50% {
+        @include transform(scale(2));
+    }
+}
+
+.grid {
+    //@include animation(dance 2.0s ease);
+    .sizeControl {
+        padding: 4px;
+        display: none;
+
+        @include media($screen-s) {
+            display: block;
+        }
+    }
+
+    .gridItem {
+        width: 20%;
+        float: left;
+        padding: 4px;
+        font-size: 1em;
+
+        &.list {
+            width: 100%;
+            float: none;
+            vertical-align: middle;
+            @include transition(all 0.5s $ease-out-expo);
+
+            .itemContent {
+                @include itemContent(40px);
+
+                h1, h2, p {
+                    display: inline-block;
+                    float: left;
+                }
+
+                h2, p {
+                    margin-left: 8px;
+                }
+            }
+        }
+
+        &.small {
+            width: 100%;
+            @include transition(all 0.5s $ease-out-expo);
+
+            .itemContent {
+                @include itemContent(60px);
+            }
+
+            @include media($screen-s) {
+                width: 25%;
+
+                .itemContent {
+                    @include itemContent(100px);
+                }
+            }
+
+            @include media($screen-m) {
+                width: 10%;
+
+                .itemContent {
+                    @include itemContent(140px);
+                }
+            }
+        }
+
+        &.medium {
+            width: 100%;
+            @include transition(all 0.5s $ease-out-expo);
+
+            .itemContent {
+                @include itemContent(60px);
+            }
+
+            @include media($screen-s) {
+                width: 25%;
+
+                .itemContent {
+                    @include itemContent(100px);
+                }
+            }
+
+            @include media($screen-m) {
+                width: 20%;
+
+                .itemContent {
+                    @include itemContent(160px);
+                }
+            }
+        }
+
+        &.large {
+            width: 100%;
+            @include transition(all 0.5s $ease-out-expo);
+
+            .itemContent {
+                @include itemContent(60px);
+            }
+
+            @include media($screen-s) {
+                width: 25%;
+
+                .itemContent {
+                    @include itemContent(120px);
+                }
+            }
+
+            @include media($screen-m) {
+                width: 25%;
+
+                .itemContent {
+                    @include itemContent(160px);
+                }
+            }
+        }
+    }
+}

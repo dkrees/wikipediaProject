@@ -1,0 +1,121 @@
+// TYPOGRAPHY
+
+body {
+
+	font-family: $font-sans-serif;
+	font-size: $font-size-base; // Set base font size to 15px, 1em = 15px
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: $line-height-base;
+	color: $font-colour;
+}
+
+// Text
+$texts: (
+	h1: (
+		font-size: 34px,
+		font-weight: 100,
+		line-height: 1.2
+	),
+	h2: (
+		font-size: 24px,
+		font-weight: 100,
+		line-height: 1.2
+	),
+	h3: (
+		font-size: 20px,
+		font-weight: 200,
+		line-height: 1.2
+	),
+	h4: (
+		font-size: 18px,
+		font-weight: 400,
+		line-height: 1.2
+	),
+	h5: (
+		font-size: 15px,
+		font-weight: 600,
+		line-height: 1.5
+	),
+	h6: (
+		font-size: 15px,
+		font-weight: 400,
+		line-height: 1.5
+	),
+	p: (
+		font-size: 15px,
+		font-weight: 400,
+		line-height: 1.5
+	)
+);
+
+@each $text, $map in $texts {
+	#{$text} {
+		font-family: $font-sans-serif;
+		font-size: map-get($map, font-size);
+		font-weight: map-get($map, font-weight);
+		line-height: map-get($map, line-height);
+		margin: (map-get($map, line-height) * map-get($map, font-size)/2) 0 map-get($map, line-height) * map-get($map, font-size) 0;
+	}
+}
+
+.small {
+	font-size: 0.6em;
+}
+
+header > h1 {
+	.symbol, .lnr {
+		font-size: 0.7em;
+	}
+}
+
+// text alignments
+.text-left {
+	text-align: left;
+}
+
+.text-centre,
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+// colours
+.text-white {
+	color: $white;
+}
+
+@each $theme, $prop in $themes {
+	.text-#{$theme} {
+		color: map-get($prop, color);
+	}
+}
+
+.text-muted {
+	color: $muted;
+}
+
+.text-italic {
+	font-style: italic;
+}
+
+.text-strong {
+	font-weight: 600;
+}
+
+ul {
+	//padding: 0;
+
+    &.unstyled {
+        list-style: none;
+    }
+}
+

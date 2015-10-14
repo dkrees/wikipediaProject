@@ -1,0 +1,194 @@
+// LAYOUT STYLE AND 12 COLUMN GRID SYSTEM
+
+body {
+	margin: 0;
+	padding: 0;
+    background-color: $body-bg;
+}
+
+.content {
+	margin-left: $navWidthCollapsed;
+}
+
+*[ui-view="header"] {
+	background: $grey;
+	color: $white;
+	width: 100%;
+	height: $navWidthCollapsed;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: $navWidthCollapsed;
+	padding-right: $padding;
+	z-index: 9000;
+
+	.heading {
+		padding-top: $navWidthCollapsed / 4;
+		padding-left: $navWidthCollapsed / 4;
+		vertical-align: middle;
+		margin: 0;
+
+		h1 {
+			font-size: 20px;
+			font-weight: 200;
+			//line-height: 1;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
+	.userPanel {
+		position: fixed;
+		top: $navWidthCollapsed;
+		right: 0;
+		z-index: 9000;
+		width: 300px;
+		padding: $padding;
+		background: $grey;
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+
+			li {
+				&.item {
+					padding: $padding/2;
+					border-bottom: 1px solid $grey-lighter;
+				}
+			}
+		}
+	}
+}
+
+*[ui-view="subheader"] {
+	position: fixed;
+	display: block;
+	vertical-align: middle;
+	width: 100%;
+	//margin: $navWidthCollapsed 0 0 0;
+	padding-left: $navWidthCollapsed;
+	padding-right: $padding;
+	z-index: 8000;
+	top: $navWidthCollapsed;
+	left: 0;
+	height: $navWidthCollapsed +3px;
+	background: $white;
+
+	ul {
+		display: inline-block;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-indent: 0;
+		white-space: nowrap;
+		font-weight: 200;
+		vertical-align: middle;
+		float: left;
+
+		&.nav-right {
+			float: right;
+		}
+
+		li {
+			display: inline-block;
+			vertical-align: middle;
+			padding: $navWidthCollapsed / 4;
+			color: $grey-light;
+
+			&:hover {
+				cursor: pointer;
+				color: $grey-dark;
+			}
+
+			&.selected {
+				color: $grey-dark;
+				font-weight: 600;
+			}
+		}
+	}
+
+	+ *[ui-view="layout"] {
+		margin-top: 2 * $navWidthCollapsed + 3px;
+	}
+}
+
+*[ui-view="layout"] {
+	// background: $grey-lighter;
+	// margin-top: 2 * $navWidthCollapsed + 3px;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: -1000;
+}
+
+.container {
+	//margin: $navWidthCollapsed 0;
+	margin: 0;
+	@include outer-container(100%);
+}
+
+
+.subNavContainer {
+	@extend .container;
+	margin-top: 2 * $navWidthCollapsed + 3px;
+}
+
+
+.row {
+	margin: 1em 1em;
+	@include row();
+
+	> &:last-child {
+		@include omega;
+	}
+
+	.row {
+		margin: 0 0;
+	}
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+// array of screen sizes
+$screens: (
+	"xs": (
+		"width": $screen-xs
+	),
+	"s": (
+		"width": $screen-s
+	),
+	"m": (
+		"width": $screen-m
+	),
+	"l": (
+		"width": $screen-l
+	)
+);
+
+// loop through for each screen size to create 12col grid sizes and shifts
+@each $screen, $screenProp in $screens {
+	@include media(map-get($screenProp, "width")) {
+		@for $col from 1 through 12 {
+			.col-#{$col}-#{$screen} {
+				@include span-columns($col);
+				min-height: 1px;
+			}
+			.shift-#{$col}-#{$screen} {
+				@include shift($col);
+				min-height: 1px;
+			}
+		}
+	}
+}
+

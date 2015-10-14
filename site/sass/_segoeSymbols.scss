@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Segoe UI Symbols';
+    src: url('../bower_components/winjs/fonts/Symbols.ttf') format('truetype');
+    src: url('../fonts/segoeUI/SEGMDL2.ttf') format('truetype');
+}
+
+// Catchall baseclass
+.symbol {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Segoe UI Symbols';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.symbol-back-button         { &:before { content: "\E112"; } }
+.symbol-forward-button      { &:before { content: "\E0AE"; } }
+
+.symbol-outlined-heart      { &:before { content: "\E006"; } }
+.symbol-solid-heart         { &:before { content: "\E0A5"; } }
+.symbol-broken-heart        { &:before { content: "\E007"; } }
+.symbol-solid-heart-0       { &:before { content: "\E00B"; } } // 0 width
+.symbol-broken-heart-0      { &:before { content: "\E00C"; } } // 0 width
+
+.symbol-home                { &:before { content: "\E10F"; } }
+
+.symbol-settings            { &:before { content: "\E115"; } }

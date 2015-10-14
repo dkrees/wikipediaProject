@@ -1,0 +1,25 @@
+// LIST STYLES
+
+dl {
+	dt {
+		color: $grey-light;
+	}
+
+	dd {
+		margin: 0 0 ($line-height-base * $font-size-base /2) 0;
+	}
+
+	&.horizontal {
+		dt, dd {
+			display: inline;
+		}
+
+		dt {
+			width: 20%;
+		}
+
+		dd {
+			width: 80%;
+		}
+	}
+}

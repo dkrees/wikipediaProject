@@ -32,7 +32,7 @@ $warning:       #FD7400;
 
 
 $themes: (
-	"default": (color: $white, alt: $grey-dark),
+	"white": (color: $white, alt: $grey-dark),
 	"green": (color: $green, alt: $black),
 	"amber": (color: $darkOrange, alt: $white),
 	"darkGreen": (color: $darkGreen, alt: $white),
@@ -48,7 +48,6 @@ $themes: (
 	"info": (color: $info, alt: $white),
     "error": (color: $error, alt: $white),
     "warning": (color: $warning, alt: $white),
-    "undocumented": (color: $warning, alt: $white),
     "transparent": (color: transparent, alt: $grey)
 );
 
@@ -74,6 +73,8 @@ $content-padding: 		$padding/2 !default;
 // TYPOGRAPHY
 // ==========================
 $font-sans-serif: 	        'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif !default;
+$font-serif:				Georgia, Times, 'Times New Roman', serif !default;
+$font-family:				$font-serif !default;
 $font-colour: 		        $grey-dark !default;
 $font-size-base:            15px !default;
 $line-height-base:          1.5 !default;

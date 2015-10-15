@@ -11,6 +11,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/bookshelf.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 506,
+		"inputAbbreviatedPath": "\/img\/bookshelf.png",
+		"outputAbbreviatedPath": "\/img\/bookshelf.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Wikipedia-logo-v2_1x.png": {
 		"fileType": 32768,
 		"ignore": 0,

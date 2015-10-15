@@ -30,6 +30,23 @@ margin-bottom {
     margin-bottom: $padding;
 }
 
+.strapline {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	color: $muted;
+	font-size: 0.9em;
+}
+
+#searchArea {
+	margin: $padding * 4 0;
+}
+
+#languageArea {
+	margin: $padding * 4 0 0 0;
+	padding: $padding * 4 0;
+	border-top: 3px solid darken($blue, 10%);
+}
 
 // FILLED CIRCLE
 // for icon backgrounds

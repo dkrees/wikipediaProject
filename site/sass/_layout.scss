@@ -10,16 +10,12 @@ body {
 	margin-left: $navWidthCollapsed;
 }
 
-*[ui-view="header"] {
-	background: $grey;
+nav {
+	background: $white;
 	color: $white;
 	width: 100%;
 	height: $navWidthCollapsed;
-	position: fixed;
-	top: 0;
-	left: 0;
-	padding-left: $navWidthCollapsed;
-	padding-right: $padding;
+	padding: $padding $navWidthCollapsed;
 	z-index: 9000;
 
 	.heading {
@@ -61,62 +57,6 @@ body {
 	}
 }
 
-*[ui-view="subheader"] {
-	position: fixed;
-	display: block;
-	vertical-align: middle;
-	width: 100%;
-	//margin: $navWidthCollapsed 0 0 0;
-	padding-left: $navWidthCollapsed;
-	padding-right: $padding;
-	z-index: 8000;
-	top: $navWidthCollapsed;
-	left: 0;
-	height: $navWidthCollapsed +3px;
-	background: $white;
-
-	ul {
-		display: inline-block;
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		text-indent: 0;
-		white-space: nowrap;
-		font-weight: 200;
-		vertical-align: middle;
-		float: left;
-
-		&.nav-right {
-			float: right;
-		}
-
-		li {
-			display: inline-block;
-			vertical-align: middle;
-			padding: $navWidthCollapsed / 4;
-			color: $grey-light;
-
-			&:hover {
-				cursor: pointer;
-				color: $grey-dark;
-			}
-
-			&.selected {
-				color: $grey-dark;
-				font-weight: 600;
-			}
-		}
-	}
-
-	+ *[ui-view="layout"] {
-		margin-top: 2 * $navWidthCollapsed + 3px;
-	}
-}
-
-*[ui-view="layout"] {
-	// background: $grey-lighter;
-	// margin-top: 2 * $navWidthCollapsed + 3px;
-}
 
 .background {
 	position: absolute;

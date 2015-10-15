@@ -2,7 +2,7 @@
 
 body {
 
-	font-family: $font-sans-serif;
+	font-family: $font-family;
 	font-size: $font-size-base; // Set base font size to 15px, 1em = 15px
 	font-style: normal;
 	font-variant: normal;
@@ -52,7 +52,7 @@ $texts: (
 
 @each $text, $map in $texts {
 	#{$text} {
-		font-family: $font-sans-serif;
+		font-family: $font-family;
 		font-size: map-get($map, font-size);
 		font-weight: map-get($map, font-weight);
 		line-height: map-get($map, line-height);
@@ -61,7 +61,7 @@ $texts: (
 }
 
 .small {
-	font-size: 0.6em;
+	font-size: 0.7em;
 }
 
 header > h1 {
@@ -114,8 +114,32 @@ header > h1 {
 ul {
 	//padding: 0;
 
-    &.unstyled {
-        list-style: none;
-    }
+	&.unstyled {
+		list-style: none;
+	}
+
+	&.horizontal {
+		li {
+			display: inline;
+
+			a {
+				color: $white;
+				@include transition(all 0.5s ease-out);
+
+				&:hover {
+					color: darken($blue, 15%);
+				}
+			}
+
+			&:after {
+				content: " |";
+			}
+			&:last-child {
+				&:after {
+					content: "";
+				}
+			}
+		}
+	}
 }
 

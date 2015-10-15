@@ -14,7 +14,10 @@ $toggle-height:				$input-height; //21px;
 	width: 100%;
 	padding: 4px 14px;
 	font-size: 1em;
+	font-family: $font-family;
 	margin-bottom: 12px;
+
+	@include transition(all 0.5s ease-out);
 
     &.warning {
         border-color: $warning;
@@ -36,7 +39,7 @@ $toggle-height:				$input-height; //21px;
 
 #{$all-text-inputs-focus},
 #{$all-text-inputs-hover} {
-	border: 2px solid $grey;
+	border: 2px solid $blue;
 	outline: 0;
 
     &.warning {

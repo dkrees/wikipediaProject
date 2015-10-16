@@ -51,6 +51,13 @@ $themes: (
     "transparent": (color: transparent, alt: $grey)
 );
 
+@each $theme, $prop in $themes {
+	.theme-#{$theme} {
+		background-color: map-get($prop, color);
+		color: map-get($prop, alt);
+	}
+}
+
 $primary-colour: $lightBlue;
 
 // GRID

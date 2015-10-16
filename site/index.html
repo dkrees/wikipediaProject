@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="mul">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -8,91 +8,80 @@
 </head>
 <body>
 
-	<nav class="container">
-		<div class"row">
-			<div class="shift-10-s col-2-s">
-				<select id="searchLanguage" name="language" class="pull-right">
-					<option value="ar" lang="ar">العربية</option><!-- Al-ʿArabīyah -->
-					<option value="be" lang="be">Беларуская (Акадэмічная)</option><!-- Belaruskaya (Akademichnaya) -->
-					<option value="bg" lang="bg">Български</option><!-- Bulgarski -->
-					<option value="ca" lang="ca">Català</option>
-					<option value="cs" lang="cs">Čeština</option>
-					<option value="da" lang="da">Dansk</option>
-					<option value="de" lang="de">Deutsch</option>
-					<option value="el" lang="el">Ελληνικά</option><!-- Ellīniká -->
-					<option value="en" lang="en" selected="selected">English</option>
-					<option value="es" lang="es">Español</option>
-					<option value="eo" lang="eo">Esperanto</option>
-					<option value="et" lang="et">Eesti</option>
-					<option value="eu" lang="eu">Euskara</option>
-					<option value="fa" lang="fa">فارسی</option><!-- Fārsi -->
-					<option value="fr" lang="fr">Français</option>
-					<option value="gl" lang="gl">Galego</option>
-					<option value="ko" lang="ko">한국어</option><!-- Hangugeo -->
-					<option value="hy" lang="hy">Հայերեն</option><!-- Hayeren -->
-					<option value="hi" lang="hi">हिन्दी</option><!-- Hindī -->
-					<option value="hr" lang="hr">Hrvatski</option>
-					<option value="id" lang="id">Bahasa Indonesia</option>
-					<option value="it" lang="it">Italiano</option>
-					<option value="he" lang="he">עברית</option><!-- ʿIvrit -->
-					<option value="la" lang="la">Latina</option>
-					<option value="lt" lang="lt">Lietuvių</option>
-					<option value="hu" lang="hu">Magyar</option>
-					<option value="ms" lang="ms">Bahasa Melayu</option>
-					<option value="min" lang="min">Bahaso Minangkabau</option>
-					<option value="nl" lang="nl">Nederlands</option>
-					<option value="ja" lang="ja">日本語</option><!-- Nihongo -->
-					<option value="no" lang="nb">Norsk (Bokmål)</option>
-					<option value="nn" lang="nn">Norsk (Nynorsk)</option>
-					<option value="ce" lang="ce">Нохчийн</option><!-- Noxçiyn -->
-					<option value="uz" lang="uz">Oʻzbekcha / Ўзбекча</option>
-					<option value="pl" lang="pl">Polski</option>
-					<option value="pt" lang="pt">Português</option>
-					<option value="kk" lang="kk">Қазақша / Qazaqşa / قازاقشا</option>
-					<option value="ro" lang="ro">Română</option>
-					<option value="ru" lang="ru">Русский</option><!-- Russkiy -->
-					<option value="simple" lang="en">Simple English</option>
-					<option value="ceb" lang="ceb">Sinugboanong Binisaya</option><!-- Cebuano -->
-					<option value="sk" lang="sk">Slovenčina</option>
-					<option value="sl" lang="sl">Slovenščina</option>
-					<option value="sr" lang="sr">Српски / Srpski</option>
-					<option value="sh" lang="sh">Srpskohrvatski / Српскохрватски</option>
-					<option value="fi" lang="fi">Suomi</option>
-					<option value="sv" lang="sv">Svenska</option>
-					<option value="tr" lang="tr">Türkçe</option>
-					<option value="uk" lang="uk">Українська</option><!-- Ukrayins’ka -->
-					<option value="vi" lang="vi">Tiếng Việt</option>
-					<option value="vo" lang="vo">Volapük</option>
-					<option value="war" lang="war">Winaray</option>
-					<option value="zh" lang="zh">中文</option><!-- Zhōngwén -->
-				</select>
-			</div>
+	<section class="container">
+		<div id="wikipediaWordMark">
+			<img src="img/Wikipedia_wordmark_1x.png" alt="Wikipedia">
+			<p class="strapline text-center">The Free Encyclopedia</p>
 		</div>
-	</nav>
-
-	<div class="container">
-		<div class="row">
-			<div class="col-12-s">
-				<div id="wikipediaWordMark">
-					<img src="img/Wikipedia_wordmark_1x.png" alt="Wikipedia">
-					<p class="strapline text-center">The Free Encyclopedia</p>
-				</div>
-			</div>
+		<div id="wikipediaLogo">
+			<img src="img/Wikipedia-logo-v2_1x.png" alt="Wikipedia Logo">
 		</div>
-		<div class="row">
-			<div class="col-12-s">
-				<div id="wikipediaLogo">
-					<img src="img/Wikipedia-logo-v2_1x.png" alt="Wikipedia Logo">
-				</div>
-			</div>
+	</section>
+	<div class="container" id="languageSetting">
+		<div class="float-right">
+			<select id="searchLanguage" name="language">
+			<option value="ar" lang="ar">العربية</option><!-- Al-ʿArabīyah -->
+			<option value="be" lang="be">Беларуская (Акадэмічная)</option><!-- Belaruskaya (Akademichnaya) -->
+			<option value="bg" lang="bg">Български</option><!-- Bulgarski -->
+			<option value="ca" lang="ca">Català</option>
+			<option value="cs" lang="cs">Čeština</option>
+			<option value="da" lang="da">Dansk</option>
+			<option value="de" lang="de">Deutsch</option>
+			<option value="el" lang="el">Ελληνικά</option><!-- Ellīniká -->
+			<option value="en" lang="en" selected="selected">English</option>
+			<option value="es" lang="es">Español</option>
+			<option value="eo" lang="eo">Esperanto</option>
+			<option value="et" lang="et">Eesti</option>
+			<option value="eu" lang="eu">Euskara</option>
+			<option value="fa" lang="fa">فارسی</option><!-- Fārsi -->
+			<option value="fr" lang="fr">Français</option>
+			<option value="gl" lang="gl">Galego</option>
+			<option value="ko" lang="ko">한국어</option><!-- Hangugeo -->
+			<option value="hy" lang="hy">Հայերեն</option><!-- Hayeren -->
+			<option value="hi" lang="hi">हिन्दी</option><!-- Hindī -->
+			<option value="hr" lang="hr">Hrvatski</option>
+			<option value="id" lang="id">Bahasa Indonesia</option>
+			<option value="it" lang="it">Italiano</option>
+			<option value="he" lang="he">עברית</option><!-- ʿIvrit -->
+			<option value="la" lang="la">Latina</option>
+			<option value="lt" lang="lt">Lietuvių</option>
+			<option value="hu" lang="hu">Magyar</option>
+			<option value="ms" lang="ms">Bahasa Melayu</option>
+			<option value="min" lang="min">Bahaso Minangkabau</option>
+			<option value="nl" lang="nl">Nederlands</option>
+			<option value="ja" lang="ja">日本語</option><!-- Nihongo -->
+			<option value="no" lang="nb">Norsk (Bokmål)</option>
+			<option value="nn" lang="nn">Norsk (Nynorsk)</option>
+			<option value="ce" lang="ce">Нохчийн</option><!-- Noxçiyn -->
+			<option value="uz" lang="uz">Oʻzbekcha / Ўзбекча</option>
+			<option value="pl" lang="pl">Polski</option>
+			<option value="pt" lang="pt">Português</option>
+			<option value="kk" lang="kk">Қазақша / Qazaqşa / قازاقشا</option>
+			<option value="ro" lang="ro">Română</option>
+			<option value="ru" lang="ru">Русский</option><!-- Russkiy -->
+			<option value="simple" lang="en">Simple English</option>
+			<option value="ceb" lang="ceb">Sinugboanong Binisaya</option><!-- Cebuano -->
+			<option value="sk" lang="sk">Slovenčina</option>
+			<option value="sl" lang="sl">Slovenščina</option>
+			<option value="sr" lang="sr">Српски / Srpski</option>
+			<option value="sh" lang="sh">Srpskohrvatski / Српскохрватски</option>
+			<option value="fi" lang="fi">Suomi</option>
+			<option value="sv" lang="sv">Svenska</option>
+			<option value="tr" lang="tr">Türkçe</option>
+			<option value="uk" lang="uk">Українська</option><!-- Ukrayins’ka -->
+			<option value="vi" lang="vi">Tiếng Việt</option>
+			<option value="vo" lang="vo">Volapük</option>
+			<option value="war" lang="war">Winaray</option>
+			<option value="zh" lang="zh">中文</option><!-- Zhōngwén -->
+			</select>
 		</div>
 	</div>
-	<div class="container" id="searchArea">
+	<section class="container" id="searchArea">
 		<div class="row">
 			<div class="shift-4-s col-4-s">
 				<form class="row" id="searchForm">
 					<div class="col-12-s">
-						<input id="searchWiki" name="searchField" type="text" placeholder="" onkeypress="return keyPress(event)">
+						<input id="searchWiki" name="searchField" type="text" placeholder="" onkeypress="return keyPress(event)" autofocus>
 					</div>
 					<div class="col-12-s">
 						<button class="block blue" type="submit" onclick="return doSearch()">search</button>
@@ -100,9 +89,9 @@
 				</form>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="container theme-blue" id="languageArea">
+	<section class="container theme-blue" id="languageArea">
 		<div class="row">
 			<div class="shift-2-s col-8-s text-center">
 				<h3>1 000 000+</h3>
@@ -368,7 +357,67 @@
 				</ul>
 			</div>
 		</div>
-	</div>
+	</section>
+
+	<section id="projects" class="container">
+		<ul class="otherprojects">
+
+			<li class="otherprojects-item">
+				<a href="http://www.wiktionary.org/"><img src="//upload.wikimedia.org/wikipedia/meta/3/3b/Wiktionary-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/c/c2/Wiktionary-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/0/05/Wiktionary-logo_sister_2x.png 2x" width="35" height="35" alt=""><span>Wiktionary</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://www.wikinews.org/"><img src="//upload.wikimedia.org/wikipedia/meta/a/aa/Wikinews-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/e/e7/Wikinews-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/4/4b/Wikinews-logo_sister_2x.png 2x" width="47" height="24" alt=""><span>Wikinews</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://www.wikiquote.org/"><img src="//upload.wikimedia.org/wikipedia/meta/c/c8/Wikiquote-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/a/aa/Wikiquote-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/9/97/Wikiquote-logo_sister_2x.png 2x" width="35" height="41" alt=""><span>Wikiquote</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://www.wikibooks.org/"><img src="//upload.wikimedia.org/wikipedia/meta/7/74/Wikibooks-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/4/47/Wikibooks-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/0/0f/Wikibooks-logo_sister_2x.png 2x" width="35" height="35" alt=""><span>Wikibooks</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://www.wikidata.org/"><img src="//upload.wikimedia.org/wikipedia/meta/0/00/Wikidata-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/5/58/Wikidata-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/e/ec/Wikidata-logo_sister_2x.png 2x" width="47" height="26" alt=""><span>Wikidata</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://species.wikimedia.org/"><img src="//upload.wikimedia.org/wikipedia/meta/8/8c/Wikispecies-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/4/43/Wikispecies-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/7/7d/Wikispecies-logo_sister_2x.png 2x" width="35" height="41" alt=""><span>Wikispecies</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://www.wikisource.org/"><img src="//upload.wikimedia.org/wikipedia/meta/2/27/Wikisource-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/0/06/Wikisource-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/a/a4/Wikisource-logo_sister_2x.png 2x" width="35" height="37" alt=""><span>Wikisource</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://www.wikiversity.org/"><img src="//upload.wikimedia.org/wikipedia/meta/a/af/Wikiversity-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/d/df/Wikiversity-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/6/69/Wikiversity-logo_sister_2x.png 2x" width="35" height="28" alt=""><span>Wikiversity</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://www.wikivoyage.org/"><img src="//upload.wikimedia.org/wikipedia/meta/7/74/Wikivoyage-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/4/4c/Wikivoyage-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/4/4e/Wikivoyage-logo_sister_2x.png 2x" width="35" height="35" alt=""><span>Wikivoyage</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://commons.wikimedia.org/"><img src="//upload.wikimedia.org/wikipedia/meta/9/90/Commons-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/4/4e/Commons-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/b/b6/Commons-logo_sister_2x.png 2x" width="35" height="47" alt=""><span>Commons</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://www.mediawiki.org/"><img src="//upload.wikimedia.org/wikipedia/meta/1/16/MediaWiki-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/f/f7/MediaWiki-logo_sister_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/2/2e/MediaWiki-logo_sister_2x.png 2x" width="47" height="36" alt=""><span>MediaWiki</span></a>
+			</li>
+
+			<li class="otherprojects-item">
+				<a href="http://meta.wikimedia.org/"><img src="//upload.wikimedia.org/wikipedia/meta/f/f2/Meta-logo_sister_1x.png" srcset="//upload.wikimedia.org/wikipedia/meta/6/61/Meta-logo_sister_1.5x.png 1.5x, upload.wikimedia.org/wikipedia/meta/a/ac/Meta-logo_sister_2x.png 2x" width="35" height="35" alt=""><span>Meta-Wiki</span></a>
+			</li>
+		</ul>
+	</section>
+
+	<footer class="container">
+		<div class="row">
+			<a href="//wikimediafoundation.org/"><img id="wikiFoundation" src="https://www.wikipedia.org/static/images/wikimedia-button.png" width="88" height="31" alt="A Wikimedia Project"></a>
+		</div>
+		<div class="text-center"><span id="discovery-feedback-survey" style="display: inline;"><a href="//wikimedia.qualtrics.com/jfe/form/SV_3rZFiKhpb2JzWbb">Give Us Feedback</a> | </span><a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> | <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a></div>
+	</footer>
 
 	<script type="text/javascript">
 		(function () {

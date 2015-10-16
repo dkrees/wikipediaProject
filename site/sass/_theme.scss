@@ -1,0 +1,97 @@
+// IMAGE CLASSES
+
+$wordMark-width: 174px;
+$wordMark-height: 30px;
+$wordMark-top: 50px;
+
+$wikipediaLogo-width: 200px;
+$wikipediaLogo-height: 183px;
+$wikipediaLogo-top: 20px;
+
+#wikipediaWordMark {
+	height: $wordMark-height/2 + $wordMark-top/2;
+
+	img {
+		width: $wordMark-width/2;
+		height: $wordMark-height/2;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		margin-top: $wordMark-height / 2;
+		margin-left: -$wordMark-width / 4;
+		z-index: 1000;
+	}
+}
+
+@include media($screen-s) {
+	#wikipediaWordMark {
+		height: $wordMark-height + $wordMark-top;
+
+		img {
+			width: $wordMark-width;
+			height: $wordMark-height;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			margin-top: $wordMark-height;
+			margin-left: -$wordMark-width / 2;
+		}
+	}
+}
+
+#wikipediaLogo {
+	img {
+		width: $wikipediaLogo-width/4;
+		height: $wikipediaLogo-height/4;
+		position: absolute;
+		top: 12px;
+		left: 12px;
+		z-index: 2000;
+	}
+}
+
+@include media($screen-s) {
+	#wikipediaLogo {
+		height: 230px + $wikipediaLogo-top;
+		img {
+			width: $wikipediaLogo-width;
+			height: $wikipediaLogo-height;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			margin-top: -70px;
+			margin-left: -$wikipediaLogo-width / 2;
+			margin-bottom: 200px;
+			z-index: 2000;
+		}
+	}
+}
+
+#languageSetting {
+	position: static;
+	display: block;
+	width: 100%;
+	padding: $padding;
+	margin-top: 30px;
+}
+
+@include media($screen-s) {
+	#languageSetting {
+		position: absolute;
+		top: 12px;
+		right: 12px;
+		width: auto;
+		padding: 0;
+		margin: 0;
+	}
+}
+
+img#wikiFoundation {
+	width: 88px;
+	height: 31px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -44px;
+}

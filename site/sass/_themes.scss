@@ -1,8 +1,0 @@
-// THEME STYLES
-
-@each $theme, $prop in $themes {
-	.theme-#{$theme} {
-		background-color: map-get($prop, color);
-		color: map-get($prop, alt);
-	}
-}

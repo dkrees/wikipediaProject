@@ -11,11 +11,11 @@ body {
 }
 
 nav {
-	background: $white;
-	color: $white;
+	background: transparent;
+	//color: $white;
 	width: 100%;
 	height: $navWidthCollapsed;
-	padding: $padding $navWidthCollapsed;
+	padding: 0;
 	z-index: 9000;
 
 	.heading {
@@ -130,5 +130,9 @@ $screens: (
 			}
 		}
 	}
+}
+
+footer {
+	padding: $padding*2 0;
 }
 
